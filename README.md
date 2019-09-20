@@ -1,4 +1,7 @@
 # RandomColor
+![RandomColor](https://github.com/diegoavellanedat17/RandomColor/blob/master/PORTADA.png)
+
+
 The idea of this device "RANDOM COLOR" is to make a game for when you are with your friends. "RANDOM COLOR" works with Alexa and has the following functionalities:
 - Assign a random color to each player
 - Show which colors are at stake
@@ -20,3 +23,5 @@ payload="BLUE"
 Once this message is received, in NeoPixel Ring it will illuminate the corresponding color.
 
 For the development of the Alexa code, it is in the repository, it is necessary to create an AWS account and program with lambda, for the persistence of the files in the game it is important to have a Bucket in Amazon S3 since the temporary files are deleted after a while and the game information is lost, I invite you to my repository where you will find more information on both Firmware and Lambda code.
+
+More info in Hackster.io
